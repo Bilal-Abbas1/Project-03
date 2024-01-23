@@ -8,6 +8,10 @@ const Nav = () => {
     <div> <header className="flex justify-between gap-5 py-2 px-2 bg-blue-300 text-center text-2xl  text-black-800 items-center">
 
         
+<div className="w-20 h-20 rounded-full">
+<img src="Logo.jpg" alt="" />
+        </div>
+
         <ul className='flex space-x-8 text-red-500'>
         <Link href={"/"}>Home</Link>
         <Link href={"/Name"}>Name</Link>
